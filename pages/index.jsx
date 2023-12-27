@@ -544,7 +544,7 @@ export default function Index() {
             )}
             {(trainingState || !predictable) && (
               <button
-                className="text-sm py-2 px-4 border-teal-500 border-2 rounded-xl uppercase cursor-not-allowed w-full"
+                className="text-sm py-4 px-4 border-teal-500 border-2 rounded-xl uppercase cursor-not-allowed w-full"
                 title={
                   !predictable
                     ? "Upload input file to make predictions"
