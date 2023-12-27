@@ -406,7 +406,7 @@ export default function Index() {
         </div>
       </div>
       {/* Main Content - Adjusted for mobile visibility */}
-      <div className="flex flex-col md:flex-row w-full bg-gray-900 items-center border-y-2 border-teal-900 overflow-auto md:overflow-y-clip py-4">
+      <div className="flex flex-col md:flex-row w-full bg-gray-900 items-center border-y-2 border-teal-900 overflow-auto md:overflow-y-hidden py-4">
         {/* Training Data Section */}
         <div className="w-full md:w-1/6 flex flex-col shrink p-2">
           <label className="uppercase text-teal-600 text-sm mb-2">
