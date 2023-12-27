@@ -7,7 +7,7 @@ Module.onRuntimeInitialized = async () => {
 
     const nn = new Module.NeuralNetwork();
 
-    let uploadedValidDataset = false;
+    // let uploadedValidDataset = false;
     let layerCounts = [];
     let trainingSpeed = 1;
     let inputSize = 0; 
