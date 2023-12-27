@@ -359,52 +359,37 @@ export default function Index() {
       ></ErrorModal>
 
       {/* Top Navigation Bar - Restyled for Mobile */}
-      <div className="flex flex-col md:flex-row w-full bg-gray-900 h-1/5 md:h-1/10 items-center p-3">
-        <div className="flex-grow">
-          <Link href="/">
-            <a className="flex flex-row text-white text-lg md:text-2xl items-center hover:text-white">
-              <img
-                src={`${prefix}/images/favicon.ico`}
-                className="h-8 mr-2"
-              ></img>
-              NViz
-            </a>
-          </Link>
-        </div>
-        <div className="flex flex-row justify-around gap-5 md:justify-center items-center w-full md:w-1/3">
-          <Link href="/about">
-            <a className="text-white text-sm md:text-base hover:text-teal-400 hover:cursor-pointer">
-              About
-            </a>
-          </Link>
-          <Link href="/format">
-            <a className="text-white text-sm md:text-base hover:text-teal-400 hover:cursor-pointer">
-              File Format
-            </a>
-          </Link>
-        </div>
-        <div className="flex justify-end flex-grow">
-          <a
-            className="flex flex-row justify-end"
-            target="_blank"
-            href="https://github.com/ahluwalij/NViz"
-          >
-            <p className="text-gray-500 text-xs md:text-sm mr-2">
-              Made by Jasdeep Ahluwalia
-            </p>
-            <img
-              className="h-6 cursor-pointer"
-              src={`${prefix}/images/github.svg`}
-              onMouseOver={(event) =>
-                (event.target.src = `${prefix}/images/github-color.svg`)
-              }
-              onMouseOut={(event) =>
-                (event.target.src = `${prefix}/images/github.svg`)
-              }
-            />
-          </a>
-        </div>
-      </div>
+      <div className='flex flex-row w-full bg-gray-900 h-20 items-center border-b-2 border-teal-900'>
+                <div className='ml-6 mr-6'>
+                    <Link href="/">
+                        <a className='flex flex-row text-white text-2xl items-center hover:text-white'><img src={`${prefix}/images/favicon.ico`} className='h-10 mr-4'></img>NViz</a>
+                    </Link>
+                </div>
+                <div className='items-center w-1/3'>
+                    <Link href="/about">
+                        <a className='text-white text-base hover:text-teal-400 hover:cursor-pointer mr-4'>
+                        About
+                        </a>
+                    </Link>
+                    <Link href="/format">
+                        <a className='text-white text-base hover:text-teal-400 hover:cursor-pointer'>
+                        File Format
+                        </a>
+                    </Link>
+                </div>
+                <div className='flex flex-row ml-auto w-1/4 h-full items-center justify-end'>
+                    <div className='flex flex-row w-fit h-1/3 justify-end mr-4'>
+                        <a className='flex flex-row justify-end' target="_blank" href='https://github.com/ahluwalij/NViz'>
+                            <p className='flex text-center items-center text-left justify-center mr-4 text-gray-500 cursor-default'>Made by Jasdeep Ahluwalia</p>
+                            <img className='h-full cursor-pointer'
+                                src={`${prefix}/images/github.svg`}
+                                onMouseOver={event => event.target.src = `${prefix}/images/github-color.svg`}
+                                onMouseOut={event => event.target.src = `${prefix}/images/github.svg`}
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
       {/* Main Content - Adjusted for mobile visibility */}
       <div className="flex flex-col md:flex-row w-full bg-gray-900 items-center border-y-2 border-teal-900 overflow-auto md:overflow-y-hidden py-4">
         {/* Training Data Section */}
