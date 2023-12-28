@@ -2,7 +2,7 @@
 
 <img src="/images/demo.png" alt="NViz Neural Network Visualization" width="1000"/>
 
-## 💼 For Recruiters and Developers 💼
+## 💼 Note: For Recruiters and Developers 💼
 
 As an open-source project, NViz reflects a commitment to transparency and community-driven improvement. It's not just a tool but a demonstration of practical software engineering skills, including:
 
@@ -11,7 +11,7 @@ As an open-source project, NViz reflects a commitment to transparency and commun
 - **Responsive Web Design**: Crafting a user interface that provides a seamless experience across various devices and screen sizes.
 - **Testing and Reliability**: Implementing comprehensive end-to-end tests with Cypress to ensure application integrity.
 
-Through NViz, I hope to have demonstrated my proficiency in full-stack development, from concept to deployment, emphasizing clean code, usability, and performance optimization. Thank you.
+Through NViz, I hope to demonstrate my proficiency in full-stack development, from concept to deployment, emphasizing clean code, usability, and performance optimization. Thank you.
 
 ## ✨ Introduction
 
