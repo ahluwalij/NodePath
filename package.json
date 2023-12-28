@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -24,6 +26,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
+    "cypress": "^13.6.2",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7",
     "postcss": "^8.4.5",
