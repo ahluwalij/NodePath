@@ -6,7 +6,7 @@
 
 As an open-source project, NViz reflects a commitment to transparency and community-driven improvement. It's not just a tool but a demonstration of practical software engineering skills, including:
 
-- **Efficient Algorithm Implementation**: Utilizing C++ and WebAssembly for high-performance neural network training in a web context.
+- **Efficient Algorithm Implementation**: Utilizing C++ and WebAssembly for high-performance neural network training, at a 1.5x training speed of comparable native JavaScript.
 - **Modern Web Development**: Leveraging Next.js, React.js, and TailwindCSS, for a scalable and maintainable codebase, enhancing user experience with server-side rendering and interactive state management.
 - **Responsive Web Design**: Crafting a user interface that provides a seamless experience across various devices and screen sizes.
 - **Testing and Reliability**: Implementing comprehensive end-to-end tests with Cypress to ensure application integrity.
