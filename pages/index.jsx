@@ -516,7 +516,7 @@ export default function Index() {
 
           <div className="flex flex-col mb-4">
             <div className="text-xl mb-3">
-              <p className="mb-2">Epochs: {epochs}</p>
+              <p className="mb-2" data-testid="epochs-counter">Epochs: {epochs}</p>
               <p>
                 Error: <span className="text-sm">{error}</span>
               </p>
