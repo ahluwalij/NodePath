@@ -1,21 +1,21 @@
-# NViz: Neural Network Visualization and Training Platform
+# NodePath: Neural Network Visualization and Training Platform
 
-<img src="/images/demo.png" alt="NViz Neural Network Visualization" width="1000"/>
+<img src="/images/demo.png" alt="NodePath Neural Network Visualization" width="1000"/>
 
 ## 💼 Note: For Recruiters and Developers 💼
 
-As an open-source project, NViz reflects a commitment to transparency and community-driven improvement. It's not just a tool but a demonstration of practical software engineering skills, including:
+As an open-source project, NodePath reflects a commitment to transparency and community-driven improvement. It's not just a tool but a demonstration of practical software engineering skills, including:
 
 - **Efficient Algorithm Implementation**: Utilizing C++ and WebAssembly for high-performance neural network training, at a 1.5x training speed of comparable native JavaScript.
 - **Modern Web Development**: Leveraging Next.js, React.js, and TailwindCSS, for a scalable and maintainable codebase, enhancing user experience with server-side rendering and interactive state management.
 - **Responsive Web Design**: Crafting a user interface that provides a seamless experience across various devices and screen sizes.
 - **Testing and Reliability**: Implementing comprehensive end-to-end tests with Cypress to ensure application integrity.
 
-Through NViz, I hope to demonstrate my proficiency in full-stack development, from concept to deployment, emphasizing clean code, usability, and performance optimization. Thank you.
+Through NodePath, I hope to demonstrate my proficiency in full-stack development, from concept to deployment, emphasizing clean code, usability, and performance optimization. Thank you.
 
 ## ✨ Introduction
 
-NViz is crafted with the vision of making neural network training accessible, insightful, and interactive. Using performant C++ compiled to WebAssembly, NViz achieves remarkable training speeds—up to 1.5x faster than comparable native JavaScript implementations. It's styled with the modern utility-first CSS framework Tailwind, and leverages the robustness of React within the Next.js framework to deliver a seamless user experience.
+NodePath is crafted with the vision of making neural network training accessible, insightful, and interactive. Using performant C++ compiled to WebAssembly, NodePath achieves remarkable training speeds—up to 1.5x faster than comparable native JavaScript implementations. It's styled with the modern utility-first CSS framework Tailwind, and leverages the robustness of React within the Next.js framework to deliver a seamless user experience.
 
 ## 💻 Features
 
@@ -23,11 +23,11 @@ NViz is crafted with the vision of making neural network training accessible, in
 - **Real-Time Visualization:** Watch as your neural network evolves through training, with updates on network performance metrics such as epochs and error rates.
 - **Performance Optimizations:** Enjoy rapid training speeds with WebAssembly optimizations, allowing for compute-intensive operations to be executed swiftly in the browser.
 - **Interactive UI:** Engage with an intuitive interface, built with React and TailwindCSS, to manage your neural network's configuration, training, and predictions.
-- **Responsive Design:** Whether you're on a desktop or mobile device, NViz provides a fully responsive design that adapts to your screen size for an optimal user experience.
+- **Responsive Design:** Whether you're on a desktop or mobile device, NodePath provides a fully responsive design that adapts to your screen size for an optimal user experience.
 
-## 🚀 Getting Started with NViz
+## 🚀 Getting Started with NodePath
 
-NViz is ready to go—no setup required. Access the platform online to begin crafting and training your neural networks:
+NodePath is ready to go—no setup required. Access the platform online to begin crafting and training your neural networks:
 
 1. **Upload Training Data**: Start by uploading your training dataset in JSON format.
 2. **Configure Your Network**: Set your desired network structure by adjusting the input, hidden, and output layers.
@@ -44,12 +44,12 @@ NViz is ready to go—no setup required. Access the platform online to begin cra
 
 ## 🌐 Open Source
 
-NViz is proudly open-source and welcomes contributions. Your feedback and contributions can help make NViz a more robust and feature-rich platform.
+NodePath is proudly open-source and welcomes contributions. Your feedback and contributions can help make NodePath a more robust and feature-rich platform.
 
 ## 📚 Resources
 
-- [File Format Guide](https://ahluwalij.github.io/NViz/format)
-- [Sample Datasets](https://github.com/ahluwalij/NViz/tree/main/datasets)
+- [File Format Guide](https://ahluwalij.github.io/NodePath/format)
+- [Sample Datasets](https://github.com/ahluwalij/NodePath/tree/main/datasets)
 
 ## 📝 License
 

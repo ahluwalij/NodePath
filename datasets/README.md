@@ -1,5 +1,5 @@
 # Datasets
-All provided datasets make use of inputs scaled from -1.5 to 1.5. As detailed on the NViz site, outputs are normalized (scaled 0 to 1). 
+All provided datasets make use of inputs scaled from -1.5 to 1.5. As detailed on the NodePath site, outputs are normalized (scaled 0 to 1). 
 `training.json` (n=1000) is used for model training, while `inputs.json` (n=100) is used for model testing.
 
 ## 2x1_Circle

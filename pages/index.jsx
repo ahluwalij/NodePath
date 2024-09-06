@@ -349,7 +349,7 @@ export default function Index() {
     <div className="site flex flex-col h-screen w-screen font-vietnam">
       <Head>
         <link rel="shortcut icon" href={`${prefix}/images/favicon.ico`} />
-        <title>NViz | Home</title>
+        <title>NodePath | Home</title>
       </Head>
 
       <ErrorModal
@@ -362,7 +362,7 @@ export default function Index() {
       <div className='flex flex-row w-full bg-gray-900 h-20 items-center border-b-2 border-teal-900'>
                 <div className='ml-6 mr-6'>
                     <Link href="/">
-                        <a className='flex flex-row text-white text-2xl items-center hover:text-white'><img src={`${prefix}/images/favicon.ico`} className='h-10 mr-4'></img>NViz</a>
+                        <a className='flex flex-row text-white text-2xl items-center hover:text-white'><img src={`${prefix}/images/favicon.ico`} className='h-10 mr-4'></img>NodePath</a>
                     </Link>
                 </div>
                 <div className='items-center w-1/3'>
@@ -379,7 +379,7 @@ export default function Index() {
                 </div>
                 <div className='flex flex-row ml-auto w-1/4 h-full items-center justify-end'>
                     <div className='flex flex-row w-fit h-1/3 justify-end mr-4'>
-                        <a className='flex flex-row justify-end' target="_blank" href='https://github.com/ahluwalij/NViz'>
+                        <a className='flex flex-row justify-end' target="_blank" href='https://github.com/ahluwalij/NodePath'>
                             <p className='flex text-center items-center text-left justify-center mr-4 text-gray-500 cursor-default'>Made by Jasdeep Ahluwalia</p>
                             <img className='h-full cursor-pointer'
                                 src={`${prefix}/images/github.svg`}

@@ -3,8 +3,8 @@ describe('Neural Network Visualization', () => {
     cy.visit('http://localhost:3000');
   });
 
-  it('should display the main title NViz', () => {
-    cy.get('header').contains('NViz');
+  it('should display the main title NodePath', () => {
+    cy.get('header').contains('NodePath');
   });
 
   it('allows a user to upload training data', () => {

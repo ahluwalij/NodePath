@@ -34,12 +34,12 @@ export default function Format() {
         <div className='site flex flex-col h-full w-full bg-gray-900 font-vietnam'>
             <Head>
                 <link rel='shortcut icon' href={`${prefix}/images/favicon.ico`}/>
-                <title>NViz | Format</title>
+                <title>NodePath | Format</title>
             </Head>
             <div className='flex flex-row w-full bg-gray-900 h-20 items-center border-b-2 border-teal-900'>
                 <div className='ml-6 mr-6'>
                     <Link href="/">
-                        <a className='flex flex-row text-white text-2xl items-center hover:text-white'><img src={`${prefix}/images/favicon.ico`} className='h-10 mr-4'></img>NViz</a>
+                        <a className='flex flex-row text-white text-2xl items-center hover:text-white'><img src={`${prefix}/images/favicon.ico`} className='h-10 mr-4'></img>NodePath</a>
                     </Link>
                 </div>
                 <div className='items-center w-1/3'>
@@ -56,7 +56,7 @@ export default function Format() {
                 </div>
                 <div className='flex flex-row ml-auto w-1/4 h-full items-center justify-end'>
                     <div className='flex flex-row w-1/2 h-1/3 justify-end mr-4'>
-                        <a className='flex flex-row justify-end' target="_blank" href='https://github.com/ahluwalij/NViz'>
+                        <a className='flex flex-row justify-end' target="_blank" href='https://github.com/ahluwalij/NodePath'>
                             <p className='flex text-center items-center justify-center mr-4 text-gray-500 cursor-default'>Made by Jasdeep Ahluwalia</p>
                             <img className='h-full cursor-pointer'
                                 src={`${prefix}/images/github.svg`}
@@ -85,7 +85,7 @@ export default function Format() {
                                 theme={obsidian}
                             />
                         </div>
-                        <p className="text-xl">Several sample datasets can be found on the <a href="https://github.com/ahluwalij/NViz/tree/master/datasets" target="_blank">GitHub repository.</a></p> 
+                        <p className="text-xl">Several sample datasets can be found on the <a href="https://github.com/ahluwalij/NodePath/tree/master/datasets" target="_blank">GitHub repository.</a></p> 
                     </div>
                     <div className="flex items-center justify-center mb-8">
                         <h1 className="text-white text-4xl underline">Input Format</h1>
@@ -101,7 +101,7 @@ export default function Format() {
                                 theme={obsidian}
                             />
                         </div>
-                        <p className="text-xl">Sample input files for each of the sample training datasets can also be found on the <a href="https://github.com/ahluwalij/NViz/tree/master/datasets" target="_blank">GitHub repository.</a></p> 
+                        <p className="text-xl">Sample input files for each of the sample training datasets can also be found on the <a href="https://github.com/ahluwalij/NodePath/tree/master/datasets" target="_blank">GitHub repository.</a></p> 
                     </div>
                 </div>
             </div>

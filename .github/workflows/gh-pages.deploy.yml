@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: /NViz
+      NEXT_PUBLIC_BASE_PATH: /NodePath
 
     strategy:
       matrix:
